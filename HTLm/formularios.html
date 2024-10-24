@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIOS EN HTML</title>
+<link href="../Css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIOS EN HTML</h1>
+</header>
+<nav>
+  <ul>
+             <li><a href="../index.html">Inicio</a></li>
+             <li><a href="listas Mau.html">Listas</a></li>
+             <li><a href="enlaces.html">Enlaces</a></li>
+             <li><a href="Tablas.html">Tablas</a></li>
+             <li><a href="imagenes.html">Imagenes</a></li>
+             <li><a href="audio.html">Audio</a></li>
+             <li><a href="Video.html">Video</a></li>
+             <li><a href="Formulario.html"> Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario de ingreso</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis blanditiis modi nostrum alias officia. Architecto officia illum quasi! Omnis consequuntur quae officia quo incidunt laboriosam repudiandae voluptatibus illum nobis ea, obcaecati fugiat corrupti molestiae dolorem eos, tempora veritatis sunt iure repellat adipisci. Harum ut, distinctio corporis maiores eveniet accusamus aliquid.</p>
+    <form action="../index.html" id="form1" name="form1" method="get">
+      <label for="textfield">Usuario:</label>
+      <input name="textfield" type="text" id="textfield" size="25">
+      <label for="password">Contraseña:</label>
+      <input name="password" type="password" id="password" size="6">
+      <input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quos iure quibusdam provident, illo culpa illum a quia ex iste beatae minus, accusantium similique placeat, officiis magnam amet facilis temporibus at quo? Nesciunt, sapiente repellendus minus aperiam voluptatibus recusandae autem quaerat blanditiis corporis, odio modi ullam, veniam illum minima perferendis.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="textfield2">Nombre:</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <label for="textfield3">Apellido:</label>
+      <input type="text" name="textfield3" id="textfield3">
+      <label for="number">Edad:</label>
+      <input name="number" type="number" id="number" max="100" min="18">
+      <label for="select">Pais:</label>
+      <select name="select" id="select">
+        <option value="argentina">ARGENTINA</option>
+        <option value="bolivia">BOLIVIA</option>
+        <option value="colombia">COLOMBIA</option>
+        <option value="méxico">MÉXICO</option>
+        <option value="italia">ITALIA</option>
+      </select>
+      <label>Genero:</label>
+        <label>
+          <input type="radio" name="GENERO" value="femenino" id="GENERO_0">
+        Femenino</label>
+        <label>
+          <input type="radio" name="GENERO" value="masculino" id="GENERO_1">
+          Masculino</label>
+        <label>
+          <input type="radio" name="GENERO" value="otro" id="GENERO_2">
+          Otro</label>
+        <br>
+      <label>Genero musical que prefieres</label>
+        <label>
+          <input type="checkbox" name="Musica" value="pop" id="Musica_0">
+        POP</label>
+        <label>
+          <input type="checkbox" name="Musica" value="rock" id="Musica_1">
+          ROCK</label>
+        <label>
+          <input type="checkbox" name="Musica" value="rap" id="Musica_2">
+          RAP</label>
+        <label>
+          <input type="checkbox" name="Musica" value="trap" id="Musica_3">
+          TRAP</label>
+        <label>
+          <input type="checkbox" name="Musica" value="kpop" id="Musica_4">
+          KPOP</label>
+        <label>
+          <input type="checkbox" name="Musica" value="corridos" id="Musica_5">
+          CORRIDOS</label>
+        <br>
+      <input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+      &nbsp;
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario ¿Quién eres?</h2>
+    <p>En este formulario conoceremos un poco más sobre ti. Tus respuestas nos ayudarán a entender mejor quién eres y cómo podemos brindarte una experiencia personalizada. ¡Gracias por compartir con nosotros!</p>
+    <form id="form3" name="form3" method="post">
+      <label for="textfield4">Nombre:</label>
+      <input name="textfield4" type="text" id="textfield4" maxlength="15">
+      <label for="textfield5">Apellido:</label>
+      <input name="textfield5" type="text" id="textfield5" maxlength="30">
+      
+      <label for="number2">Edad:</label>
+      <input name="number2" type="number" id="number2" max="50" min="10">
+      
+      <label for="email">Correo:</label>
+      
+<input type="email" name="email" id="email">
+<label for="month">Fecha de nacimiento&nbsp; &nbsp;:</label>
+      <input type="month" name="month" id="month">
+      
+      
+      
+      
+      <label for="tel">Número Celular:</label>
+      <input type="tel" name="tel" id="tel" placeholder="000-000-0000">
+      
+      <label for="range">¿Qué tal te sientes hoy?:</label>
+<input type="range" name="range" id="range">
+
+<label for="color">Color Favorito:</label>
+<input type="color" name="color" id="color">
+<label for="date">Cumpleaños de ser querido:</label>
+<input type="date" name="date" id="date">
+<label for="fileField">Fotografia que más te guste:</label>
+<input type="file" name="fileField" id="fileField">
+<label for="week">¿Cuál fue tu mejor semana este año?:</label>
+<input type="week" name="week" id="week">
+<label for="url">Copia y Pega el link de tu instagram:</label>
+<input type="url" name="url" id="url">
+<input name="submit3" type="submit" id="submit3" formmethod="GET" value="Enviar">
+<input type="reset" name="reset" id="reset" value="Restablecer">
+      &nbsp;
+    </form>
+  </section>
+</main>
+<footer>
+  <h5>ELABORADO POR MAURICIO MORALES GONZÁLEZ</h5>
+</footer>
+</body>
+</html>

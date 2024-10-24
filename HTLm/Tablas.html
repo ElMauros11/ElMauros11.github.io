@@ -1,0 +1,318 @@
+<html>
+    <head>
+        <title>Tablas en html </title>
+        <link rel="stylesheet" href= "../Css/style_page.css" type="text/css">
+         <style type="text/css"> 
+        header,nav,main,footer{
+                width: 100%;
+                
+            }
+             main{
+                text-align: center;
+            }
+            
+            section{
+                width: 70%;
+                height: auto;
+                display: inline-block;
+                margin: 10px;
+                text-align: left;
+                overflow: auto;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> TABLAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                 <li><a href="listas Mau.html">Listas</a></li>
+                 <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="formularios.html"> Formularios</a></li>
+                
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Mi familia "tabla simplecon separación de bordes de celda"</h2>
+                <p>Número entero sagittis rhoncus venenatis. Nulla mauris nisl, fermentum non turpis et, ullamcorper faucibus diam. Mauris est est, molestie ac neque id, iaculis vulputate dui. Hecho eget leo mauris. Vivamus suscipit est sapien, eget laoreet felis elementum rhoncus. Proin ac lectus ligula. Aenean quam diam, aliquam vitae efficitur non, elementum ac erat. Proin varius elit est, sed consectetur turpis volutpat non. Donec dignissim metus at nisl scelerisque tempor. Duis placerat ipsum tincidunt diam laoreet congue. Pellentesque interdum ipsum risus, vitae facilisis justo eleifend at. In sit amet purus eleifend, pellentesque diam id, sodales mi. Aenean ligula eros, malesuada eget cursus et, rutrum vitae diam.</p>
+                <table border="1" id=tabla1 >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno </th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mauricio </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-129-8123</td>
+                            <td>Moramauro825@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-266-4294</td>
+                            <td>juanca7313@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paola </td>
+                            <td>Morales </td>
+                            <td>González</td>
+                            <td>221-375-2277</td>
+                            <td>paolam@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Luz</td>
+                            <td>González</td>
+                            <td>Espejel</td>
+                            <td>222-873-5920</td>
+                            <td>sandraluzgonzalez20@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos</td>
+                            <td>Morales</td>
+                            <td>Peralta</td>
+                            <td>222-729-8976</td>
+                            <td>focotlanpue@outlook.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Mi familia "tabla modificada por clase y con uso de colspan"</h2>
+                <p>Número entero sagittis rhoncus venenatis. Nulla mauris nisl, fermentum non turpis et, ullamcorper faucibus diam. Mauris est est, molestie ac neque id, iaculis vulputate dui. Hecho eget leo mauris. Vivamus suscipit est sapien, eget laoreet felis elementum rhoncus. Proin ac lectus ligula. Aenean quam diam, aliquam vitae efficitur non, elementum ac erat. Proin varius elit est, sed consectetur turpis volutpat non. Donec dignissim metus at nisl scelerisque tempor. Duis placerat ipsum tincidunt diam laoreet congue. Pellentesque interdum ipsum risus, vitae facilisis justo eleifend at. In sit amet purus eleifend, pellentesque diam id, sodales mi. Aenean ligula eros, malesuada eget cursus et, rutrum vitae diam.</p>
+                <table border="1"  class="tabla2" >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno </th>
+                            <th colspan="2">Teléfono</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mauricio </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-129-8123</td>
+                            <td>221-129-8123</td>
+                            <td>Moramauro825@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-266-4294</td>
+                            <td>221-266-4294</td>
+                            <td>juanca7313@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paola </td>
+                            <td>Morales </td>
+                            <td>González</td>
+                            <td>221-375-2277</td>
+                            <td></td>
+                            <td>paolam@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Luz</td>
+                            <td>González</td>
+                            <td>Espejel</td>
+                            <td>222-873-5920</td>
+                            <td>222-873-5920</td>
+                            <td>sandraluzgonzalez20@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos</td>
+                            <td>Morales</td>
+                            <td>Peralta</td>
+                            <td>222-729-8976</td>
+                            <td></td>
+                            <td>focotlanpue@outlook.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Zebra </h2>
+                <p>Número entero sagittis rhoncus venenatis. Nulla mauris nisl, fermentum non turpis et, ullamcorper faucibus diam. Mauris est est, molestie ac neque id, iaculis vulputate dui. Hecho eget leo mauris. Vivamus suscipit est sapien, eget laoreet felis elementum rhoncus. Proin ac lectus ligula. Aenean quam diam, aliquam vitae efficitur non, elementum ac erat. Proin varius elit est, sed consectetur turpis volutpat non. Donec dignissim metus at nisl scelerisque tempor. Duis placerat ipsum tincidunt diam laoreet congue. Pellentesque interdum ipsum risus, vitae facilisis justo eleifend at. In sit amet purus eleifend, pellentesque diam id, sodales mi. Aenean ligula eros, malesuada eget cursus et, rutrum vitae diam.</p>
+                <table border="1" id=tabla3 >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno </th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mauricio </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-129-8123</td>
+                            <td>Moramauro825@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-266-4294</td>
+                            <td>juanca7313@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paola </td>
+                            <td>Morales </td>
+                            <td>González</td>
+                            <td>221-375-2277</td>
+                            <td>paolam@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Luz</td>
+                            <td>González</td>
+                            <td>Espejel</td>
+                            <td>222-873-5920</td>
+                            <td>sandraluzgonzalez20@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos</td>
+                            <td>Morales</td>
+                            <td>Peralta</td>
+                            <td>222-729-8976</td>
+                            <td>focotlanpue@outlook.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Hover</h2>
+                <p>Número entero sagittis rhoncus venenatis. Nulla mauris nisl, fermentum non turpis et, ullamcorper faucibus diam. Mauris est est, molestie ac neque id, iaculis vulputate dui. Hecho eget leo mauris. Vivamus suscipit est sapien, eget laoreet felis elementum rhoncus. Proin ac lectus ligula. Aenean quam diam, aliquam vitae efficitur non, elementum ac erat. Proin varius elit est, sed consectetur turpis volutpat non. Donec dignissim metus at nisl scelerisque tempor. Duis placerat ipsum tincidunt diam laoreet congue. Pellentesque interdum ipsum risus, vitae facilisis justo eleifend at. In sit amet purus eleifend, pellentesque diam id, sodales mi. Aenean ligula eros, malesuada eget cursus et, rutrum vitae diam.</p>
+                <table border="1" id=tabla4 >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno </th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mauricio </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-129-8123</td>
+                            <td>Moramauro825@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-266-4294</td>
+                            <td>juanca7313@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paola </td>
+                            <td>Morales </td>
+                            <td>González</td>
+                            <td>221-375-2277</td>
+                            <td>paolam@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Luz</td>
+                            <td>González</td>
+                            <td>Espejel</td>
+                            <td>222-873-5920</td>
+                            <td>sandraluzgonzalez20@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos</td>
+                            <td>Morales</td>
+                            <td>Peralta</td>
+                            <td>222-729-8976</td>
+                            <td>focotlanpue@outlook.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto;">
+                <h2>Mi familia "tabla con el uso de overflow"</h2>
+                <p>Número entero sagittis rhoncus venenatis. Nulla mauris nisl, fermentum non turpis et, ullamcorper faucibus diam. Mauris est est, molestie ac neque id, iaculis vulputate dui. Hecho eget leo mauris. Vivamus suscipit est sapien, eget laoreet felis elementum rhoncus. Proin ac lectus ligula. Aenean quam diam, aliquam vitae efficitur non, elementum ac erat. Proin varius elit est, sed consectetur turpis volutpat non. Donec dignissim metus at nisl scelerisque tempor. Duis placerat ipsum tincidunt diam laoreet congue. Pellentesque interdum ipsum risus, vitae facilisis justo eleifend at. In sit amet purus eleifend, pellentesque diam id, sodales mi. Aenean ligula eros, malesuada eget cursus et, rutrum vitae diam.</p>
+                <table border="1" id="tabla2" class="tabla2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno </th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mauricio </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-129-8123</td>
+                            <td>Moramauro825@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos </td>
+                            <td>Morales</td>
+                            <td>González</td>
+                            <td>221-266-4294</td>
+                            <td>juanca7313@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paola </td>
+                            <td>Morales </td>
+                            <td>González</td>
+                            <td>221-375-2277</td>
+                            <td>paolam@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Luz</td>
+                            <td>González</td>
+                            <td>Espejel</td>
+                            <td>222-873-5920</td>
+                            <td>sandraluzgonzalez20@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Carlos</td>
+                            <td>Morales</td>
+                            <td>Peralta</td>
+                            <td>222-729-8976</td>
+                            <td>focotlanpue@outlook.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+         <footer>
+            <h5>Elaborado por Mauricio Morales Gonzalez </h5>
+        </footer>
+    </body>
+</html>
